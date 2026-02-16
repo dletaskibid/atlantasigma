@@ -9747,6 +9747,15 @@ function RoClothes(Player)
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
+				"Sock 1",
+				"Roblox Pants",
+			},
+			["ClothingBundle"] = true
+		},
+                ["Roblox Clothing"] = {
+			["Clothing"] = {
+				"Roblox Breasts Clothing",
+				"Roblox Shirt",
 				"Roblox Butt Shirt",
 				"Roblox Pants",
 			},
