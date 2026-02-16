@@ -528,7 +528,7 @@ function RoClothes(Player)
 	local TS = game:GetService("TweenService")
 	local MPS = game:GetService("MarketplaceService")
 
-	local CVersion = "0.7.9:lerp()innimoddedthis"
+	local CVersion = "0.7.9:lerp()"
 
 	-- these settings are saved and loaded --
 	local loadupBundle = ""
@@ -9742,8 +9742,8 @@ function RoClothes(Player)
 				LegsType = 3
 			},
 		},
-		-- Clothing Bundles --		
-                ["Roblox Clothing"] = {
+		-- Clothing Bundles --
+		["Roblox Clothing"] = {
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
 				"Roblox Shirt",
@@ -9760,13 +9760,12 @@ function RoClothes(Player)
 			},
 			["ClothingBundle"] = true
 		},
-		["test"] = {
+		["Birdly Outfit"] = {
 			["Clothing"] = {
-				"Sock 1",
-				"Roblox Pants",
-				"Roblox Shirt",
-				"Remove Breasts",
-				"Butt Freckles+"
+				"Birdly Dress",
+				"Birdly Backpack",
+				"Birdly Bottom Dress",
+				"Birdly Sleeves"
 			},
 			["ClothingBundle"] = true
 		},
@@ -9780,26 +9779,27 @@ function RoClothes(Player)
 			},
 			["ClothingBundle"] = true
 		},
-		["Woman Outfit"] = {
+		["Kitty Outfit"] = {
 			["Clothing"] = {
-				"Sock 1",
-				"Roblox Pants",
 				"Roblox Shirt",
-				"Roblox Breasts Clothing Type 3",
-				"Butt Freckles+"
+				"Roblox Pants",
+				"Sock 1",
+				"Remove Breasts"
 			},
 			["Preset"] = {
-				BreastsScale = 1
+				TorsoType = 3,
+				ArmType = 2,
+				LegsType = 3
 			},
 			["ClothingBundle"] = true
 		},
-		["Femboy Suit"] = {
+		["Bunny Suit"] = {
 			["Clothing"] = {
-				"Sock 1",
-				"Roblox Pants",
-				"Roblox Shirt",
-				"Remove Breasts",
-				"Butt Freckles+"
+				"Bunny Suit",
+				"Collar w/ Bow",
+				"Bunny Bands",
+				"Bunny Aspects",
+				"Fishnet Stockings"
 			},
 			["Preset"] = {
 				BreastsScale = 1,
@@ -9939,13 +9939,12 @@ function RoClothes(Player)
 			},
 			["IsPreset"] = true
 		},
-		["click me :3"] = {
+		["[PRESET] Thicc"] = {
 			["Preset"] = {
-				ButtsScale = 1,
-				LegsScale = 1,
-				TorsoType = 7
-                                ButtType = 3,
-				LegsType = 1
+				ButtsScale = 1.3,
+				LegsScale = 1.2,
+				ButtType = 3,
+				LegsType = 2
 			},
 			["IsPreset"] = true
 		},
