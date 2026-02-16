@@ -9760,13 +9760,13 @@ function RoClothes(Player)
 			},
 			["ClothingBundle"] = true
 		},
-		["sigma"] = {
+		["test"] = {
 			["Clothing"] = {
 				"Sock 1",
 				"Roblox Pants",
 				"Roblox Shirt",
-				"Butt Freckles",
-				"Butt Freckles +"
+				"Remove Breasts",
+				"Butt Freckles+"
 			},
 			["ClothingBundle"] = true
 		},
@@ -9780,25 +9780,26 @@ function RoClothes(Player)
 			},
 			["ClothingBundle"] = true
 		},
-		["Kitty Outfit"] = {
+		["Woman Outfit"] = {
 			["Clothing"] = {
-				"Kitty Bra",
-				"Kitty Panty",
-				"Kitty Band",
-				"Kitty Aspects"
+				"Sock 1",
+				"Roblox Pants",
+				"Roblox Shirt",
+				"Roblox Breasts Clothing Type 3",
+				"Butt Freckles+"
 			},
 			["Preset"] = {
 				BreastsScale = 1
 			},
 			["ClothingBundle"] = true
 		},
-		["Bunny Suit"] = {
+		["Femboy Suit"] = {
 			["Clothing"] = {
-				"Bunny Suit",
-				"Collar w/ Bow",
-				"Bunny Bands",
-				"Bunny Aspects",
-				"Fishnet Stockings"
+				"Sock 1",
+				"Roblox Pants",
+				"Roblox Shirt",
+				"Remove Breasts",
+				"Butt Freckles+"
 			},
 			["Preset"] = {
 				BreastsScale = 1,
@@ -9938,12 +9939,13 @@ function RoClothes(Player)
 			},
 			["IsPreset"] = true
 		},
-		["[PRESET] Thicc"] = {
+		["click me :3"] = {
 			["Preset"] = {
-				ButtsScale = 1.3,
-				LegsScale = 1.2,
-				ButtType = 3,
-				LegsType = 2
+				ButtsScale = 1,
+				LegsScale = 1,
+				TorsoType = 7
+                                ButtType = 3,
+				LegsType = 1
 			},
 			["IsPreset"] = true
 		},
