@@ -9742,16 +9742,7 @@ function RoClothes(Player)
 				LegsType = 3
 			},
 		},
-		-- Clothing Bundles --
-		["Roblox Clothing"] = {
-			["Clothing"] = {
-				"Roblox Breasts Clothing",
-				"Roblox Shirt",
-				"Sock 1",
-				"Roblox Pants",
-			},
-			["ClothingBundle"] = true
-		},
+		-- Clothing Bundles --		
                 ["Roblox Clothing"] = {
 			["Clothing"] = {
 				"Roblox Breasts Clothing",
@@ -9769,12 +9760,13 @@ function RoClothes(Player)
 			},
 			["ClothingBundle"] = true
 		},
-		["Birdly Outfit"] = {
+		["sigma"] = {
 			["Clothing"] = {
-				"Birdly Dress",
-				"Birdly Backpack",
-				"Birdly Bottom Dress",
-				"Birdly Sleeves"
+				"Sock 1",
+				"Roblox Pants",
+				"Roblox Shirt",
+				"Butt Freckles",
+				"Butt Freckles +"
 			},
 			["ClothingBundle"] = true
 		},
